@@ -1,11 +1,12 @@
+// vite.config.js
 import { sveltekit } from '@sveltejs/kit/vite';
 
-/** @type {import('vite').UserConfig} */
-const config = {
-	plugins: [sveltekit()],
-	test: {
-		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+export default {
+  plugins: [sveltekit()],
+  server: {
+    fs: {
+      // Permitir acesso à pasta 'public'
+      strict: false,
+    },
+  },
 };
-
-export default config;
