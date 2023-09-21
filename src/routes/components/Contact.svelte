@@ -2,8 +2,7 @@
 <script>
     // Seus dados de contato, como nome, e-mail, telefone, etc.
     const contactDetails = {
-      email: 'contato@brwg.com',
-      telefone: '(12) 3456-7890'
+      email: 'contact@brwg.org',
     };
   </script>
   
@@ -12,7 +11,6 @@
       <h2>Contato</h2>
       <div class="contact-details">
         <p>Email: {contactDetails.email}</p>
-        <p>Telefone: {contactDetails.telefone}</p>
       </div>
     </div>
   </section>
