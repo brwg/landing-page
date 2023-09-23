@@ -26,26 +26,38 @@
 
 <style>
   /* Estilos para os botões */
+  .features {
+    background-color: #f9f9f9; /* Cor de fundo da seção */
+    padding: 20px;
+  }
+
+  .features-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
   .feature-button {
     padding: 10px 20px;
     margin-right: 10px;
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50; /* Cor de fundo (substitua pela cor desejada) */
-    color: white; /* Cor do texto (substitua pela cor desejada) */
+    background-color: #3498db; /* Cor de fundo (azul) */
+    color: white; /* Cor do texto */
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Transição suave de cor */
   }
 
   .feature-button:hover {
-    background-color: #45a049; /* Cor de fundo ao passar o mouse (substitua pela cor desejada) */
+    background-color: #2980b9; /* Cor de fundo ao passar o mouse */
   }
 
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', 'sans-serif';
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', 'sans-serif';
+    color:#f5b042;
   }
 </style>
