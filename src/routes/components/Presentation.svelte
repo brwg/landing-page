@@ -17,7 +17,7 @@
 <style>
   /* Estilos para a apresentação */
   .presentation {
-    background-color: #f0f0f0; /* Cor de fundo da apresentação */
+    background-color: #f9f9f9; /* Cor de fundo da apresentação */
     padding: 40px;
     text-align: center;
   }

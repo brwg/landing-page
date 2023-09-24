@@ -28,7 +28,7 @@
   }
 
   .contact-details {
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px; /* Borda mais arredondada */
     display: inline-block;
     text-align: left;

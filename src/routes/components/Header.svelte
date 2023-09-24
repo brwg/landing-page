@@ -5,12 +5,12 @@
 
 <header class="header">
   <div class="header-content">
-    <img src=".../../../public/logo.png" alt="Logo do Grupo" class="logo">
+    <img src="./logo.png" alt="Logo do Grupo" class="logo">
     <h1 class="header-title">BR Working Group</h1>
     <nav>
-      <a href="#features">Recursos</a>
-      <a href="#projects">Projetos</a>
-      <a href="#contact">Contato</a>
+      <a href="#features">About the Team</a>
+      <a href="#projects">Our Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -35,13 +35,14 @@
   }
 
   .header-title {
-    font-size: 32px; /* Tamanho da fonte aumentado */
-    margin-left: 20px;
+    font-size: 35px; /* Tamanho da fonte aumentado */
+    margin-left: 40px;
     color: #2176ae; /* Azul mais escuro */
     font-family: 'Roboto', 'sans-serif'; /* Nova fonte */
     font-weight: bold;
     text-transform: uppercase; /* Transformar o texto em maiúsculas */
     margin-top: 10px; /* Ajuste do espaçamento do topo */
+    text-align: center;
   }
 
   nav a {
@@ -51,6 +52,7 @@
     transition: color 0.3s ease-in-out; /* Transição suave de cor */
     font-family: 'Roboto', 'sans-serif'; /* Nova fonte */
     font-size: 18px; /* Tamanho da fonte para os links */
+    font-weight: bold;
   }
 
   nav a:hover {
