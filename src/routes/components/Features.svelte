@@ -29,6 +29,7 @@
   .features {
     background-color: #f9f9f9; /* Cor de fundo da seção */
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 16px;
   }
 
   .features-content {
@@ -52,12 +53,18 @@
     background-color: #2980b9; /* Cor de fundo ao passar o mouse */
   }
 
-  body {
-    font-family: 'Roboto', 'sans-serif';
+  :global(h1, h2, h3, h4, h5, h6) {
+    color:#6ab04c;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', 'sans-serif';
-    color:#f5b042;
+  .features-content ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features-content ul li {
+    list-style: none;
   }
 </style>
