@@ -1,45 +1,44 @@
 <!-- Contact.svelte -->
 <script>
-    // Seus dados de contato, como nome, e-mail, telefone, etc.
-    const contactDetails = {
-      email: 'contact@brwg.org',
-    };
-  </script>
-  
-  <section id="contact" class="contact">
-    <div class="contact-content">
-      <h2>Contato</h2>
-      <div class="contact-details">
-        <p>Email: {contactDetails.email}</p>
-      </div>
+  const contactDetails = {
+    email: 'contact@brwg.org',
+  };
+</script>
+
+<section id="contact" class="contact">
+  <div class="contact-content">
+    <h2>Contato</h2>
+    <div class="contact-details">
+      <p>Email: {contactDetails.email}</p>
     </div>
-  </section>
-  
-  <style>
-    /* Estilos para o formulário de contato ou detalhes de contato */
-    .contact-content {
-      text-align: center;
-      padding: 20px;
-    }
-  
-    .contact-details {
-      background-color: #f9f9f9; /* Cor de fundo do bloco de contato */
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px; /* Borda mais arredondada */
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
-    }
-  
-    .contact-details p {
-      margin: 10px 0;
-    }
+  </div>
+</section>
 
-    body {
-    font-family: Arial, sans-serif;
+<style>
+  /* Estilos para o formulário de contato ou detalhes de contato */
+  .contact-content {
+    background-color: #f0f0f0; /* Cor de fundo da seção de contato */
+    padding: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif;
+  h2 {
+    color:#2176ae;
   }
-  </style>
-  
+
+  .contact-details {
+    padding: 20px;
+    border-radius: 10px; /* Borda mais arredondada */
+    display: inline-block;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color:#6ab04c;
+    font-weight: bold;
+  }
+
+  .contact-details p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+</style>
