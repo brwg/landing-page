@@ -5,7 +5,7 @@
 
 <header class="header">
   <div class="header-content">
-    <img src="./logo.png" alt="Logo do Grupo" class="logo">
+    <img src=".../../../public/logo.png" alt="Logo do Grupo" class="logo">
     <h1 class="header-title">BR Working Group</h1>
     <nav>
       <a href="#features">About the Team</a>
@@ -60,7 +60,7 @@
   }
 
   .logo {
-    max-width: 100px; /* Ajuste o tamanho conforme necessário */
-    max-height: 100px; /* Ajuste o tamanho conforme necessário */
+    max-width: 200px; /* Ajuste o tamanho conforme necessário */
+    max-height: 200px; /* Ajuste o tamanho conforme necessário */
   }
 </style>
