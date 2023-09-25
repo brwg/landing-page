@@ -1,11 +1,12 @@
 <!-- Header.svelte -->
 <script>
-  // Se houver lógica necessária para o cabeçalho
+  import Logo from '../../../public/logo.png';
+
 </script>
 
 <header class="header">
   <div class="header-content">
-    <img src=".../../../public/logo.png" alt="Logo do Grupo" class="logo">
+    <img src="{Logo}" alt="Logo do Grupo" class="logo">
     <h1 class="header-title">BR Working Group</h1>
     <nav>
       <a href="#features">About the Team</a>
@@ -38,7 +39,6 @@
     font-size: 35px; /* Tamanho da fonte aumentado */
     margin-left: 40px;
     color: #2176ae; /* Azul mais escuro */
-    font-family: 'Roboto', 'sans-serif'; /* Nova fonte */
     font-weight: bold;
     text-transform: uppercase; /* Transformar o texto em maiúsculas */
     margin-top: 10px; /* Ajuste do espaçamento do topo */
@@ -50,7 +50,6 @@
     text-decoration: none;
     color: #2176ae; /* Azul mais escuro */
     transition: color 0.3s ease-in-out; /* Transição suave de cor */
-    font-family: 'Roboto', 'sans-serif'; /* Nova fonte */
     font-size: 18px; /* Tamanho da fonte para os links */
     font-weight: bold;
   }

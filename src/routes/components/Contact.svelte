@@ -9,7 +9,7 @@
   <div class="contact-content">
     <h2>Contato</h2>
     <div class="contact-details">
-      <p>Email: {contactDetails.email}</p>
+      <p>e-mail: {contactDetails.email}</p>
     </div>
   </div>
 </section>
