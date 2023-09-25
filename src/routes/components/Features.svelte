@@ -1,17 +1,16 @@
 <!-- Features.svelte -->
 <script>
   const features = [
-    "Tecnologia de Ponta",
-    "Inovação Constante",
     "Soluções Personalizadas",
     "Eventos",
     "Comunidades",
+    "Educação"
   ];
 </script>
 
 <section id="features" class="features">
   <div class="features-content">
-    <h2>Nossos Recursos</h2>
+    <h2>Our Projects</h2>
     <ul>
       {#each features as feature}
         <li>
@@ -35,6 +34,7 @@
   .features-content {
     max-width: 800px;
     margin: 0 auto;
+    text-align: left;
   }
 
   .feature-button {
@@ -43,14 +43,16 @@
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #3498db; /* Cor de fundo (azul) */
+    background-color: #2176ae; /* Cor de fundo (azul) */
     color: white; /* Cor do texto */
     cursor: pointer;
     transition: background-color 0.3s ease-in-out; /* Transição suave de cor */
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .feature-button:hover {
-    background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+    background-color: #4ca2cc
   }
 
   :global(h1, h2, h3, h4, h5, h6) {

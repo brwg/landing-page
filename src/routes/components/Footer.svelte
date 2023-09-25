@@ -12,24 +12,19 @@
 <style>
   /* Estilos para o rodapé */
   .footer {
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: white; /* Cor do texto */
+    background-color: #f9f9f9; /* Cor de fundo do rodapé */
+    color: #2176ae; /* Cor do texto */
     text-align: center;
     padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
   }
 
   .footer-text {
     margin: 0;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Arial, sans-serif;
   }
 </style>

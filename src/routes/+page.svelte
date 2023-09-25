@@ -5,11 +5,13 @@
     import Features from './components/Features.svelte';
     import Footer from './components/Footer.svelte';
     import Contact from './components/Contact.svelte';
+    import AboutUs from './components/AboutUs.svelte';
   </script>
   
   <main>
     <Header />
     <Presentation />
+    <AboutUs />
     <Features />
     <Contact />
     <Footer />
