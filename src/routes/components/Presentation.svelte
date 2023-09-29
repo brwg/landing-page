@@ -8,7 +8,8 @@
     <h2>Welcome to BR Working Group! 🇧🇷</h2>
     <p>Our mission is to ignite and accelerate innovation in Brazil and on a global stage.</p>
     <p>We're driving change collectively with amazing people and cross-industry collaboration.</p>
-    <p><a href="#join-us" class="cta-button">Join us</a> on this journey and let's build the future of innovation in Brazil together!</p>
+    <p>Join us on this journey and let's build the future of innovation in Brazil together!</p>
+    <a href="https://t.me/brazilwg" class="cta-button">Join the BR Working Group</a>
   </div>
 </section>
 
