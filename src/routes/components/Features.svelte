@@ -1,7 +1,7 @@
 <!-- Features.svelte -->
 <script>
   const features = [
-    "Soluções Personalizadas",
+    "Soluções",
     "Eventos",
     "Comunidades",
     "Educação"

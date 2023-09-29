@@ -7,7 +7,7 @@
 <header class="header">
   <div class="header-content">
     <img src="{Logo}" alt="Logo do Grupo" class="logo">
-    <h1 class="header-title">BR Working Group</h1>
+    <!-- <h1 class="header-title">BR Working Group</h1> -->
     <nav>
       <a href="#features">About the Team</a>
       <a href="#projects">Our Projects</a>
