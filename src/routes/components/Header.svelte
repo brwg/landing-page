@@ -41,7 +41,7 @@
     width: 100%;
   }
   .header-content .image-logo {
-   flex: 0.4;
+    display: flex;
   }
 
   .header-title {
@@ -56,20 +56,25 @@
 
   nav {
     display: flex;
-    flex: 0.4;
     flex-direction: row-reverse;
     justify-content: space-around;
   }
   nav a {
-    text-decoration: none;
-    color: #2176ae; /* Azul mais escuro */
+    text-decoration: none; /* Azul mais escuro */
     transition: color 0.3s ease-in-out; /* Transição suave de cor */
     font-size: 18px; /* Tamanho da fonte para os links */
     font-weight: bold;
   }
 
+  nav a:nth-child(even){
+    color: #2176ae;
+  }
+  nav a:nth-child(odd){
+    color: #2176ae;
+  }
+
   nav a:hover {
-    color: #4ca2cc; /* Azul mais claro ao passar o mouse */
+    color: #68777d; /* Azul mais claro ao passar o mouse */
   }
 
   .logo {
@@ -77,12 +82,12 @@
     max-height: 200px; /* Ajuste o tamanho conforme necessário */
   }
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1800px) {
     nav {
-      flex: 0.4;
+      flex: 0.6;
     }
     .header-content .image-logo {
-      flex: 0.4;
+      flex: 0.6;
     }
   }
   @media screen and (max-width: 980px) {
@@ -90,7 +95,14 @@
       flex: 12;
     }
     .header-content .image-logo {
-      flex: 0.4;
+      flex: 12;
+    }
+
+    nav a:nth-child(even){
+    color: #6ab04c;
+    }
+    nav a:nth-child(odd){
+      color: #2176ae;
     }
   }
   @media screen and (max-width: 600px) {

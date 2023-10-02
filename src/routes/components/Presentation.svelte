@@ -5,11 +5,12 @@
 
 <section id="presentation" class="presentation">
   <div class="presentation-content">
-    <h2>Welcome to BR Working Group! 🇧🇷</h2>
-    <p>Our mission is to ignite and accelerate innovation in Brazil and on a global stage.</p>
-    <p>We're driving change collectively with amazing people and cross-industry collaboration.</p>
-    <p>Join us on this journey and let's build the future of innovation in Brazil together!</p>
-    <a href="https://t.me/brazilwg" class="cta-button">Join the BR Working Group</a>
+    <h2>👋🏽 Welcome to the BR Working Group: Where Innovation Meets Opportunity!</h2>
+    <p>At BR Working Group, we're not just setting trends; we're creating a revolution! This is where the future unfolds, and it's an invitation you can't afford to miss.</p>
+    <p>Our mission? It's simple yet incredibly impactful: to ignite 🇧🇷 Brazil's innovation on a global stage. We're the driving force behind a collective journey that fuses creativity, technology, and ambition.</p>
+    <p>Join us on this thrilling journey. Together, we'll redefine what's possible, unlock the doors to innovation, and create a brighter future for Brazil and beyond.</p>
+    <p>Don't just be a spectator— 💡<strong>be a pioneer</strong>. Join the BR Working Group today and be the driving force behind tomorrow's innovations. <strong>Together, we'll transform dreams into reality. Welcome to the future.</strong>👏🏽</p>
+    <a href="https://t.me/brazilwg" target="_blank" class="cta-button">Join the BR Working Group</a>
   </div>
 </section>
 
