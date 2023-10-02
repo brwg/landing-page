@@ -14,7 +14,7 @@
       <nav>
         <a href="#contact">Contact</a>
         <a href="#projects">Our Projects</a>
-        <a href="#features">About the Team</a>
+        <a href="#team">About the Team</a>
       </nav>
     </div>
   </div>
