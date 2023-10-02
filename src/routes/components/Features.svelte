@@ -9,17 +9,19 @@
 </script>
 
 <section id="features" class="features">
-  <div class="features-content">
-    <h2>Our Projects</h2>
-    <ul>
-      {#each features as feature}
-        <li>
-          <button class="feature-button">
-            {feature}
-          </button>
-        </li>
-      {/each}
-    </ul>
+  <div class="container">
+    <div class="features-content">
+      <h2>Our Projects</h2>
+      <ul>
+        {#each features as feature}
+          <li>
+            <button class="feature-button">
+              {feature}
+            </button>
+          </li>
+        {/each}
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -29,12 +31,15 @@
     background-color: #f9f9f9; /* Cor de fundo da seção */
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .features-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
   }
 
   .feature-button {
@@ -64,9 +69,12 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .features-content ul li {
     list-style: none;
+    flex-basis: auto;
   }
+  
 </style>

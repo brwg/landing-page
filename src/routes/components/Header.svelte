@@ -5,14 +5,18 @@
 </script>
 
 <header class="header">
-  <div class="header-content">
-    <img src="{Logo}" alt="Logo do Grupo" class="logo">
-    <!-- <h1 class="header-title">BR Working Group</h1> -->
-    <nav>
-      <a href="#features">About the Team</a>
-      <a href="#projects">Our Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <div class="container">
+    <div class="header-content">
+      <div class="image-logo">
+        <img src="{Logo}" alt="Logo do Grupo" class="logo">
+      </div>
+      <!-- <h1 class="header-title">BR Working Group</h1> -->
+      <nav>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Our Projects</a>
+        <a href="#features">About the Team</a>
+      </nav>
+    </div>
   </div>
 </header>
 
@@ -25,14 +29,19 @@
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+   
   }
 
   .header-content {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .header-content .image-logo {
+   flex: 0.4;
   }
 
   .header-title {
@@ -45,8 +54,13 @@
     text-align: center;
   }
 
+  nav {
+    display: flex;
+    flex: 0.4;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
   nav a {
-    margin-left: 20px;
     text-decoration: none;
     color: #2176ae; /* Azul mais escuro */
     transition: color 0.3s ease-in-out; /* Transição suave de cor */
@@ -61,5 +75,30 @@
   .logo {
     max-width: 200px; /* Ajuste o tamanho conforme necessário */
     max-height: 200px; /* Ajuste o tamanho conforme necessário */
+  }
+
+  @media screen and (max-width: 1366px) {
+    nav {
+      flex: 0.4;
+    }
+    .header-content .image-logo {
+      flex: 0.4;
+    }
+  }
+  @media screen and (max-width: 980px) {
+    nav {
+      flex: 12;
+    }
+    .header-content .image-logo {
+      flex: 0.4;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    nav {
+      flex: 12;
+    }
+    .header-content .image-logo {
+      flex: 12;
+    }
   }
 </style>

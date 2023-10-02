@@ -18,10 +18,10 @@
     padding: 20px;
     position: fixed;
     bottom: 0;
-    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 13px;
+    width: 100%;
   }
 
   .footer-text {
