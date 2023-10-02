@@ -22,6 +22,7 @@
         Join us on this exciting journey, and together, we'll shape the future of innovation in Brazil and beyond. Welcome to the 🇧🇷 <strong>BR Working Group Team, where brilliance meets dedication.</strong>
       </p>
     </div>
+    
   </section>
   
   <style>
