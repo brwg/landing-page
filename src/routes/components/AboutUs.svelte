@@ -4,6 +4,7 @@
       <!-- <h2>About the Team</h2>
       <p></p> -->
     </div>
+    
   </section>
   
   <style>
